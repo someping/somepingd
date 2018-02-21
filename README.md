@@ -4,7 +4,7 @@ My goal is to create a fully encrypted and decentralized message protocol. A mes
 
 I have some other ideas that could make this work to. But I'll add them here later.
 
-#### v1.0.0-alpha (current - not stable)
+#### v1.0.0-alpha
 - Host a node and listen for peers
 - Broadcast messages to peers (clients)
 - Connect to other nodes
@@ -16,7 +16,7 @@ I have some other ideas that could make this work to. But I'll add them here lat
 - CLI: List connected nodes
 - Broadcast messages to all nodes.
 
-#### v1.0.2 todo
+#### v1.0.2 todo (current - not stable)
 - Encrypt messages with recepients public key before broadcasting them.
 - Decode base64, check if recepient matches with owned public key and decrypt message with private key.
 
