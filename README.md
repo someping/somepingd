@@ -1,6 +1,6 @@
 
-## Someping - decentralized chat application
-My goal is to create a fully encrypted and decentralized message network. A message sent from one user to another must be fully anonymous and sent without the need of any parties knowing each others identity or destination. To solve this, all sent messages can be encrypted with the recepients public key and broadcasted to all users over the network. Only the user whom owns the matching private key will be able to read the message - all other nodes will help by forwarding the message to their network. To reduce the problem with spam and flood, nodes will only broadcast messages that has an id generated with proof of work.
+## Somepingd - decentralized chat protocol
+My goal is to create a fully encrypted and decentralized message protocol. A message sent from one user to another must be fully anonymous and sent without the need of any parties knowing each others identity or destination. To solve this, all sent messages can be encrypted with the recepients public key and broadcasted to all users over the network. Only the user whom owns the matching private key will be able to read the message - all other nodes will help by forwarding the message to their network. To reduce the problem with spam and flood, nodes will only broadcast messages that has an id generated with proof of work.
 
 I have some other ideas that could make this work to. But I'll add them here later.
 
