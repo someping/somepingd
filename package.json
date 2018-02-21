@@ -1,8 +1,10 @@
 {
-  "name": "someping",
+  "name": "@someping/somepingd",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "A decentralized chat protocol",
+  "main": "somepingd.js",
   "license": "MIT",
+  "repository": "https://github.com/someping/somepingd",
   "dependencies": {
     "commander": "^2.14.1",
     "express": "^4.15.2",
