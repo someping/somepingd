@@ -102,7 +102,6 @@ class Message {
     }
 
     catch(error) {
-      daemon.apiserver.log('Invalid public key');
       return null;
     }
 

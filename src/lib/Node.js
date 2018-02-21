@@ -11,7 +11,6 @@ class Node {
     this.identifier = this.address + ":" + this.port;
 
     if (daemon.nodes.exists(this.identifier)) {
-      daemon.apiserver.log(`Already connected to node: ${this.identifier}`);
       return null;
     }
 
@@ -28,7 +27,6 @@ class Node {
 
   connection() {
     daemon.log.node('CONNECTED', 'INFO', this.identifier);
-    daemon.apiserver.log(`Connected to node: ${this.identifier}`);
   }
 
   revealServerPort() {
@@ -37,7 +35,6 @@ class Node {
 
   disconnect() {
     daemon.log.node('QUIT', 'INFO', this.identifier);
-    daemon.apiserver.log(`Disconnected from node: ${this.identifier}`);
     daemon.nodes.remove(this);
   }
 

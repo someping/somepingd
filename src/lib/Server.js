@@ -66,7 +66,6 @@ class Server {
     this.peers.add(peer);
 
     daemon.log.peer('CONNECTED', 'INFO', peer.identifier);
-    daemon.apiserver.log(`New connection from peer: ${peer.identifier}`);
 
     // Return our new peer object.
     return peer;
@@ -77,7 +76,6 @@ class Server {
     this.peers.remove(peer);
 
     daemon.log.peer('QUIT', 'INFO', peer.identifier);
-    daemon.apiserver.log(`Peer disconnected: ${peer.identifier}`);
   }
 
 }

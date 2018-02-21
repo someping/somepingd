@@ -5,7 +5,7 @@ const webroot = __dirname + '/webui/';
 const commands = __dirname + '/webui/';
 
 class Apiserver {
-  constructor() {
+  constructor(express, http, io) {
     this.server = daemon.server;
     this.commands = require('../../commands/api')
 

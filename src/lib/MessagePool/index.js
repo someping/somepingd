@@ -36,11 +36,6 @@ class MessagePool {
 
     if (message.hasMatchingKeypair()) {
       let data = message.decryptedData();
-      daemon.apiserver.log('---- INCOMING MESSAGE ----');
-      daemon.apiserver.log(`From: ${data.sender}`);
-      daemon.apiserver.log(`Message: ${data.body}`);
-      daemon.apiserver.log('--------');
-
     }
   }
 
