@@ -1,0 +1,19 @@
+{
+  "name": "someping",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.14.1",
+    "express": "^4.15.2",
+    "inquirer": "^5.1.0",
+    "md5": "^2.2.1",
+    "node-rsa": "^0.4.2",
+    "prompt": "^1.0.0",
+    "sha256": "^0.2.0",
+    "socket.io": "^2.0.4"
+  },
+  "bin": {
+    "somepingd": "./somepingd.js"
+  }
+}
