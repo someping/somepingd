@@ -14,7 +14,7 @@ class Daemon {
 
   start(address = '127.0.0.1', port = 44545) {
     this.createServer(address, port);
-    this.createApiserver();
+    //this.createApiserver();
   }
 
   broadcast(output) {
@@ -36,7 +36,6 @@ class Daemon {
 
   createApiserver() {
     if (this.server == null) {
-      console.log('Cannot create apiserver without creating a server first.');
       return;
     }
     this.apiserver = new library.apiserver();
